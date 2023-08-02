@@ -1,0 +1,18 @@
+.about-info-text{
+    width: 100%;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+.about-info-text > h4{
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.about-info-text > p{
+    text-align: left;
+    font-size: 18px;
+    color: #9da9c0;
+    line-height: 1.5;
+}

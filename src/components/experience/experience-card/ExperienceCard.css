@@ -1,0 +1,64 @@
+.card-container{
+    padding: 1.5rem 0.5rem;
+    backdrop-filter: blur(0px);
+    transition: 0.2s ease-in-out;
+}
+
+.card-container:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.02);
+    box-shadow: 1px 1px 5px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-text{
+    color: #9da9c0;
+}
+
+.card-img{
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tec-tools-container{
+    padding: 0.1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.tec-tools-container > span{
+    border-radius: 20px;
+    padding: 0.2rem 0.8rem;
+    color: #57cc99;
+    font-size: 15px;
+    background-color: #1D3657;
+}
+
+.card-text-app > h5{
+    color: #57cc99;
+}
+
+.card-text-app > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #45577D;
+}
+
+.card-text > p{
+    font-size: 18px;
+}
+
+.card-text-app > a:hover{
+    font-size: 20px;
+    text-decoration: none;
+    color: #57cc99;
+}
+
+.text-center{
+    color: #45577D;
+    font-weight: bold;
+}
