@@ -1,5 +1,6 @@
 import './Projects.css'
 import movieImg from '../../assets/movies.png'
+import libraryImg from '../../assets/libreria.png'
 import comprasImg from '../../assets/comprass.png'
 import ecommerceMUI from '../../assets/ecommerce01.png'
 import ecommerceBW from '../../assets/ecommerce.png'
@@ -7,6 +8,13 @@ import ProjectCard from "../project-card/ProjectCard"
 import Project from '../../interfaces/project'
 
 const projects: Project[] = [
+  {
+    image: libraryImg,
+    name: 'Library',
+    link: 'https://books-list-prueba.netlify.app/',
+    description: 'Small technical test application developed with AngularJS that includes the following functionalities: Displaying Available Books, Creating a Reading List, Filtering Books by Genre, State Synchronization, Data Persistence, Tabs Synchronization, Deployment, Testing.',
+    tecs: ['AngularJs', 'CSS', 'HTML', 'TypeScript', 'Bootstrap']
+  },
   {
     image: movieImg,
     name: 'Fakeflix App',

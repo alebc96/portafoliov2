@@ -18,7 +18,7 @@ const experiences = [
     date_range: '2020 - 2022',
     name: "Computer Engineer",
     description: 'Worked as a computer engineer in a postal company, holding the position of junior developer in the internal management system models using AngularJS and NodeJs, in addition to being a network administrator.',
-    extra: ['Angular', 'CSS', 'HTML', 'Bootstrap', 'NodeJs', 'MySQL']
+    extra: ['AngularJs', 'CSS', 'HTML', 'Bootstrap', 'NodeJs', 'MySQL']
   },
   {
     date_range: '2015 - 2020',
