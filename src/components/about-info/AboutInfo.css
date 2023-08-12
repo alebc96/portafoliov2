@@ -2,12 +2,14 @@
     width: 100%;
     justify-content: left;
     margin-bottom: 2rem;
+    padding: 1.5rem;
 }
 
 .about-info-text > h4{
     color: #f2f2f2;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0;
 }
 
 .about-info-text > p{

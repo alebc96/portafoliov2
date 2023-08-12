@@ -35,7 +35,7 @@ const Experience = () => {
         <h4> EXPERIENCE & TRAINING </h4>
         <div className="container-fluid">
             {experiences.map( exp => (
-              <ExperienceCard experience = {exp}></ExperienceCard>
+              <ExperienceCard experience = {exp} key={exp.name}></ExperienceCard>
             ))}
         </div>
     </div>

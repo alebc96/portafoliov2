@@ -14,7 +14,7 @@ const ExperienceCard = ( {experience}: {experience: Experience} ) => {
         <p>{experience.description}</p>
         <div className="tec-tools-container">
           {experience.extra.map(extra => (
-            <span>{extra}</span>
+            <span key={extra}>{extra}</span>
           ))}
         </div>
     </div>

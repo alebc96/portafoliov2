@@ -9,11 +9,11 @@ import { ButtonTop } from '../../components/btn-top/ButtonTop'
 const Home = () => {
   return (
     <>
-      <div className="row w-100">
-          <div className="col-lg">
+      <div className="home-container">
+          <div className="main-info">
               <MainInfo></MainInfo>
           </div>
-          <div className="col-lg info-container">
+          <div className="info-container">
               <AboutInfo></AboutInfo>
               <Experience></Experience>
               <Projects></Projects>

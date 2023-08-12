@@ -51,7 +51,7 @@ const Projects = () => {
         <h4> PROJECTS </h4>
         <div className="container-fluid">
             {projects.map( (project) => (
-              <ProjectCard project = {project} key={project.name}/>
+              <ProjectCard project = {project} key={project.link}/>
             ))}
         </div>
     </div>

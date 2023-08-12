@@ -1,6 +1,5 @@
 .card-container{
     padding: 1.5rem 0.5rem;
-    backdrop-filter: blur(0px);
     transition: 0.2s ease-in-out;
 }
 

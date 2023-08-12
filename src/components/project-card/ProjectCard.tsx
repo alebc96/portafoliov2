@@ -13,7 +13,7 @@ const ProjectCard = ( { project }: { project: Project } ) => {
             <p>{ project.description }</p>
             <div className="tec-tools-container">
                 {project.tecs.map(tec => (
-                    <span>{tec}</span>
+                    <span key={tec}>{tec}</span>
                 ))}
             </div>
         </div>
