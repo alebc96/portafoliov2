@@ -70,7 +70,7 @@ ul > li:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 1.5rem;
+        padding: 2.5rem;
         color: #f2f2f2;
     }
 
