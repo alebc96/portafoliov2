@@ -4,6 +4,7 @@ import libraryImg from '../../assets/libreria.png'
 import comprasImg from '../../assets/comprass.png'
 import ecommerceMUI from '../../assets/ecommerce01.png'
 import ecommerceBW from '../../assets/ecommerce.png'
+import passwordGen from '../../assets/password-generator-min.png'
 import ProjectCard from "../project-card/ProjectCard"
 import Project from '../../interfaces/project'
 
@@ -42,6 +43,13 @@ const projects: Project[] = [
     link: 'https://comprassapp.netlify.app',
     description: 'ComprasApp is a web service developed with the aim of creating a user account by registering on Firebase and generating lists of products to buy for a week. Users can add new lists and add products to them, which can be deleted or modified. The application was built using AngularJS, and for the server, NodeJs was used with a non-relational MongoDB database hosted on Atlas. It is a simple CRUD (Create, Read, Update, Delete) application with basic functionalities of POST, GET, DELETE, PUT, created with the purpose of learning and practice.',
     tecs: ['AngularJs', 'CSS', 'HTML', 'TypeScript', 'Bootstrap', 'Firebase', 'NodeJS', 'MongoDB']
+  },
+  {
+    image: passwordGen,
+    name: 'Password generator',
+    link: 'https://tailwind-pass-generator.netlify.app',
+    description: "Password generator is a challenge from FrontendMentor where you need to implement a form with certain parameters to create a secure password. You can choose from different types of characters, and the application will recommend, according to a defined criteria, whether it is secure or not.",
+    tecs: ['ReactJS', 'Tailwind', 'TSX', 'TypeScript']
   }
 ]
 
