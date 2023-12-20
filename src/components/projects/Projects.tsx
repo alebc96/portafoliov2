@@ -15,7 +15,7 @@ const projects: Project[] = [
     image: kanbanImg,
     name: 'Kanban app',
     link: 'https://kanbanapptodo.netlify.app/',
-    description: "Password generator is a challenge from FrontendMentor where you need to implement a form with certain parameters to create a secure password. You can choose from different types of characters, and the application will recommend, according to a defined criteria, whether it is secure or not.",
+    description: "Kanban app is a challenge from Frontend Mentor in which we must create a fullstack application where we can manage tasks and change their status as we progress in our workflow.",
     tecs: ['ReactJS', 'Tailwind', 'TSX', 'TypeScript', 'MySQL', 'NodeJs']
   },
   {
