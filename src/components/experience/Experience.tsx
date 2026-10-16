@@ -3,6 +3,12 @@ import ExperienceCard from './experience-card/ExperienceCard'
 
 const experiences = [
   {
+    date_range: '2023 - Present',
+    name: 'Fullstack Web Developer - Sagasoluciones',
+    description: 'Fullstack web developer providing web consulting services. I have developed several client applications end to end, carried out analysis for web development projects, and implemented data migrations with Python, working within an Azure environment.',
+    extra: ['XML', 'Java', 'JavaScript', 'HTML', 'OpenCms', 'Web Consulting', 'Python', 'Azure', 'Docker']
+  },
+  {
     date_range: '2022 - 2023',
     name: "University of Seville - Master's in Cloud Software Engineering, Data, and GT, Seville, Spain.",
     description: 'Pursuing the Cloud Engineering specialization, notable subjects include: Software as Microservices, Software as a Service Architecture, Client Technologies, Operations and Service Deployment, Machine Learning, Mobile Technologies.',
