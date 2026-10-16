@@ -1,7 +1,9 @@
+import { useLanguage } from '../../i18n/LanguageContext'
+import LanguageSwitcher from '../language-switcher/LanguageSwitcher'
 import './MainInfo.css'
 
 const MainInfo = () => {
-
+    const { t } = useLanguage()
 
     const handleNavigation = (sectionId: string) => {
         const section = document.getElementById(sectionId);
@@ -13,16 +15,17 @@ const MainInfo = () => {
   return (
     <div className="main-info-container">
         <section className='resume-section'>
+            <LanguageSwitcher />
             <h2>Manuel Alejandro</h2>
-            <p className='p-title'>Software Engineer</p>
-            <p className='p-about'>I build accessible and digital experiences for the web</p>
+            <p className='p-title'>{t.mainInfo.title}</p>
+            <p className='p-about'>{t.mainInfo.about}</p>
         </section>
 
         <section className="navegation-section">
             <ul>
-                <li className='m-2' onClick={()=> handleNavigation('about')}> ABOUT </li>
-                <li className='m-2' onClick={()=> handleNavigation('experience')}> EXPERIENCE & TRAINING </li>
-                <li className='m-2' onClick={()=> handleNavigation('projects')}> PROJECT </li>
+                <li className='m-2' onClick={()=> handleNavigation('about')}> {t.nav.about} </li>
+                <li className='m-2' onClick={()=> handleNavigation('experience')}> {t.nav.experience} </li>
+                <li className='m-2' onClick={()=> handleNavigation('projects')}> {t.nav.projects} </li>
             </ul>
         </section>
 
