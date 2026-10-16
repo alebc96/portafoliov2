@@ -1,5 +1,4 @@
 import { useLanguage } from '../../i18n/LanguageContext'
-import LanguageSwitcher from '../language-switcher/LanguageSwitcher'
 import './MainInfo.css'
 
 const MainInfo = () => {
@@ -15,7 +14,6 @@ const MainInfo = () => {
   return (
     <div className="main-info-container">
         <section className='resume-section'>
-            <LanguageSwitcher />
             <h2>Manuel Alejandro</h2>
             <p className='p-title'>{t.mainInfo.title}</p>
             <p className='p-about'>{t.mainInfo.about}</p>

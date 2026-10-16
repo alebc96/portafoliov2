@@ -4,6 +4,7 @@ import AboutInfo from '../../components/about-info/AboutInfo'
 import Experience from '../../components/experience/Experience'
 import Projects from '../../components/projects/Projects'
 import { ButtonTop } from '../../components/btn-top/ButtonTop'
+import LanguageSwitcher from '../../components/language-switcher/LanguageSwitcher'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
               <Projects></Projects>
           </div>
       </div>
+      <LanguageSwitcher></LanguageSwitcher>
       <ButtonTop></ButtonTop>
     </>
   )
