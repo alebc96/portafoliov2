@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     image: guiaLicenciaImg,
     name: 'Guía B: teórico del permiso B',
-    link: 'https://alebc96.github.io/guia-licencia-web/',
+    link: 'https://autoescuelanoads.netlify.app/,
     description: {
       en: 'Static study guide for the Spanish class B driving theory exam: 17 topics, a sign catalog, mock exams, a practice section, a searchable glossary and local progress tracking. No backend, no accounts, no cookies and no analytics.',
       es: 'Guía de estudio estática para el examen teórico del permiso B: 17 temas, catálogo de señales, examen de prueba, práctico, glosario con búsqueda y seguimiento de progreso en local. Sin backend, sin cuentas, sin cookies y sin analítica.',
